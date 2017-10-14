@@ -1,11 +1,22 @@
-<div>
-    <h1><a href="/">Django Girls Blog</a></h1>
-</div>
+<html>
+    <head>
+        <title>Miranda's Yo</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">My Head Thoughts</a></h1>
+        </div>
 
-{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
+        <div>
+            <p>published: On earther</p>
+            <h2><a href="">My first post</a></h2>
+            <p>I miss cake.</p>
+        </div>
+
+        <div>
+            <p>published: In space</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Does cake miss me?</p>
+        </div>
+    </body>
+</html>
